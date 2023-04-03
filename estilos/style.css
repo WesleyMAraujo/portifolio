@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --corfundo: rgb(24, 23, 23);
+    --cortexto: white;
+}
+
+body {
+    background-color: var(--corfundo);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cortexto);
+}
+
+header img {
+    border-radius: 50%;
+    
+}
