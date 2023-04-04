@@ -41,6 +41,10 @@ nav {
     
 }
 
+section {
+    padding: 20px;
+}
+
 div#minhasinfos {
     padding: 10px;
 }
@@ -52,7 +56,7 @@ div#minhasinfos p{
 
 div#projetos {
     background-color: rgba(0, 0, 0, 0.177);
-    margin-left: auto;
+    margin: auto;
     max-width: 200px;
     padding: 10px;
     border-radius: 10px;
