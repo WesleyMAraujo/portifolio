@@ -1,0 +1,67 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    text-align: center;
+}
+
+#cabeçalho {
+    text-align: right;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#cabeçalho a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+#cabeçalho a:hover {
+    text-decoration: underline;
+}
+
+a img {
+    width: 3%;
+    border-radius: 50%;
+}
+
+a img:hover {
+    background-color: darkgrey;
+}
+
+.barradepesquisa {
+    max-width: 500px;
+    padding: 0px;
+    margin: auto;
+}
+
+#caixadepesquisa , #botaopesquisa{
+    border-radius: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    /* altura do footer */
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
+    text-align: end;
+    text-align: left;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
