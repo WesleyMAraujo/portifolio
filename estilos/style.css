@@ -4,7 +4,8 @@
 }
 
 :root {
-    --corfundo: rgb(24, 23, 23);
+    --corfundo: #070440;
+    --corfundo2:#160DBF;
     --cortexto: white;
 }
 
@@ -13,8 +14,87 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--cortexto);
 }
+header {
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    background-image: linear-gradient(to top, var(--corfundo), var(--corfundo2));
+}
+
+header h1 {
+    margin: auto;
+    font-size: 2.5em;
+    padding: 10px;
+    
+}
 
 header img {
     border-radius: 50%;
+    box-shadow: 1px 5px 50px rgba(0, 0, 0, 0.452);
+}
+
+nav {
+    background-color: var(--corfundo);
+    padding: 10px;
+    box-shadow: 0px 45px 45px rgba(0, 0, 0, 0.385);
+
     
+}
+
+section {
+    padding: 20px;
+}
+
+div#minhasinfos {
+    padding: 10px;
+}
+
+div#minhasinfos p{
+    padding: 10px;
+    text-indent: 30px;
+}
+
+div#projetos {
+    background-color: rgba(0, 0, 0, 0.177);
+    margin: auto;
+    max-width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div#projetos h3 {
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside;
+    text-align: left;
+}
+
+div#projetos a:hover{
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding-left: 20px;
+    transition-duration: 0.5s;
+    animation: alternate;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: rgb(198, 189, 189);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer {
+   
+    padding: 10px;
+    font-weight: bolder;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.425);
 }
