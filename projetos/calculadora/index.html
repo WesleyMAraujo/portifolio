@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora Online</h1>
+    </header>
+    <section>
+        <div id="tela">
+            <input type="text" name="display" id="display" readonly>
+            <br>
+            <br>
+            <hr>
+        </div>
+        <div id="teclas">
+            <input type="button" value="1" onclick="adicionaraoDiplay('1')">
+            <input type="button" value="2" onclick="adicionaraoDiplay('2')">
+            <input type="button" value="3" onclick="adicionaraoDiplay('3')"> 
+            <input type="button" value="-" onclick="adicionaraoDiplay('-')"> <br>
+            <input type="button" value="4" onclick="adicionaraoDiplay('4')"> 
+            <input type="button" value="5" onclick="adicionaraoDiplay('5')">
+            <input type="button" value="6" onclick="adicionaraoDiplay('6')"> 
+            <input type="button" value="+" onclick="adicionaraoDiplay('+')"> <br>
+            <input type="button" value="7" onclick="adicionaraoDiplay('7')">
+            <input type="button" value="8" onclick="adicionaraoDiplay('8')">
+            <input type="button" value="9" onclick="adicionaraoDiplay('9')"> 
+            <input type="button" value="*" onclick="adicionaraoDiplay('*')"> <br>
+            <input type="button" value="0" onclick="adicionaraoDiplay('0')">
+            <input type="button" value="/" onclick="adicionaraoDiplay('/')"> 
+            <input type="button" value="*" onclick="adicionaraoDiplay('*')"> 
+            <input type="button" value="=" onclick="calcular()"> <br>
+            <input type="button" value="C" onclick="limpartela()"> 
+        </div>
+    </section>
+    <footer>
+        <p>criado por : <strong><a href="https://github.com/WesleyMAraujo" target="_blank">Wesley Monteiro de Araujo</a></strong></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
