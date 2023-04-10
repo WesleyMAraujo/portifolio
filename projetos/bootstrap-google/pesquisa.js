@@ -2,7 +2,7 @@ function pesquisar() {
     var pesquisou = document.getElementById('caixadepesquisa').value
     var wesley = 'wesley'
     if (pesquisou.toUpperCase() === wesley.toUpperCase()) {
-        window.open("wesley.html", "_self")
+        window.open("wesley.html", "_blank")
     } else {
         window.open("pagina-nav.html", "_blank")
     }
@@ -11,7 +11,7 @@ function pesquisar() {
 function pesquisar_barra(botao) {
     if (botao.key === 'enter') {
         if (pesquisou.toUpperCase() === wesley.toUpperCase()) {
-            window.open("wesley.html", "_self")
+            window.open("wesley.html", "_blank")
         } else {
             window.open("pagina-nav.html", "_blank")
         }
