@@ -37,8 +37,15 @@ nav {
     background-color: var(--corfundo);
     padding: 10px;
     box-shadow: 0px 45px 45px rgba(0, 0, 0, 0.385);
+}
 
-    
+.dropdown-menu a {
+    background-color: transparent;
+}
+
+#meusprojetos {
+    color: blue;
+    border: none;
 }
 
 section {
@@ -54,46 +61,22 @@ div#minhasinfos p{
     text-indent: 30px;
 }
 
-div#projetos {
-    background-color: rgba(0, 0, 0, 0.177);
-    margin: auto;
-    max-width: 250px;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-div#projetos h3 {
-    text-align: center;
-}
-
-ul {
-    list-style-position: inside;
-    text-align: left;
-}
-
-div#projetos a:hover{
-    text-decoration: underline;
-}
-
 a {
     text-decoration: none;
-    color: white;
     font-weight: bolder;
-    padding-left: 20px;
-    transition-duration: 0.5s;
-    animation: alternate;
-    
+    padding-left: 5px;
+    transition-duration: 0.1s;
 }
 
 nav a:hover {
     text-decoration: underline;
-    background-color: rgb(198, 189, 189);
+    background-color: rgb(223, 214, 214);
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
+    color: black;
 }
 
 footer {
-   
     padding: 10px;
     font-weight: bolder;
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.425);
