@@ -37,6 +37,7 @@ nav {
     background-color: var(--corfundo);
     padding: 10px;
     box-shadow: 0px 45px 45px rgba(0, 0, 0, 0.385);
+    text-align: center;
 }
 
 .dropdown-menu a {
