@@ -80,6 +80,10 @@ div#primeiro {
     width: 50%;
 }
 
+.imagem {
+    width: 50%;
+}
+
 #texto3 {
     display: flex;
     text-align: left;
