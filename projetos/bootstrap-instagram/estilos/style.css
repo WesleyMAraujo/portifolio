@@ -47,7 +47,7 @@ main#container {
 
 .foto-publicacao {
     margin: auto;
-    width: 443px;
+    max-width: 443px;
 }
 
 
